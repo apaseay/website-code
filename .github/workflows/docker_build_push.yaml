@@ -28,7 +28,7 @@ jobs:
 
  
 
-  deployment:                    # ✅ THIS must be aligned exactly under 'jobs:'
+  deployment:                    # ✅ THIS must be aligned exactly under jobs
     runs-on: ubuntu-latest
     needs:
       - dockerbuildpush
