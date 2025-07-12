@@ -26,13 +26,7 @@ jobs:
           push: true
           tags: ${{ vars.DOCKERHUB_USERNAME }}/webapp:latest
 
-
-                
-jobs: 
-  dockerbuildpush:
-    runs-on: ubuntu-latest
-    steps:
-      ...
+ 
 
   deployment:                    # ✅ THIS must be aligned exactly under 'jobs:'
     runs-on: ubuntu-latest
